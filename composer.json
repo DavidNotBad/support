@@ -1,0 +1,41 @@
+{
+    "name": "davidnotbad/support",
+    "description": "helper and support",
+    "type": "library",
+    "keywords": [
+        "david",
+        "davidnotbad",
+        "support"
+    ],
+    "homepage": "http://www.davidnotbad.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Yang",
+            "email": "davidnotbad@gmail.com"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/DavidNotBad/support"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DavidNotBad\\Support\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DavidNotBad\\Support\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    }
+}
